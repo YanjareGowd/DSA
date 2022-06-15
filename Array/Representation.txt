@@ -1,0 +1,20 @@
+1D Array
+
+Address(A[i])= Starting Address(L0)+i*sizeof(datatype);
+
+
+2D Array
+
+Row-major mapping
+
+Address(A[i][j]) = Starting Address(L0)+[i*n+j]*sizeof(datatype)
+
+Column-major mapping 
+ 
+ Address(A[i][j]) = Starting Address(L0)+[j*n+i]*sizeof(datatype)
+ 
+ 
+ 
+ where 
+      i=row index;
+      j=column index;
